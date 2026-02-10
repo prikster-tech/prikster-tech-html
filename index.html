@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Prikster Tech is a software studio dedicated to creating smart, modern solutions that simplify everyday life."
+      content="Prikster Tech is a product-focused software company rebuilding outdated tools with clarity and modern foundations."
     />
     <title>Prikster Tech</title>
     <link rel="icon" type="image/png" href="/icon.png" />
@@ -18,24 +18,183 @@
     <style>
       html {
         color-scheme: dark;
+        scroll-behavior: smooth;
       }
     </style>
   </head>
-  <body class="antialiased">
-    <div
-      class="flex min-h-screen items-center justify-center bg-black font-sans"
-    >
-      <main class="flex flex-col items-center justify-center px-8 text-center">
-        <h1
-          class="mb-6 text-5xl font-bold tracking-tight text-zinc-50 sm:text-6xl md:text-7xl"
-        >
-          Prikster Tech
-        </h1>
-        <p class="max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-          Prikster Tech is a software studio dedicated to creating smart, modern
-          solutions that simplify everyday life. Something great is coming soon.
-        </p>
-      </main>
+  <body class="antialiased bg-black text-zinc-400">
+    <div class="min-h-screen flex flex-col">
+      <!-- Hero -->
+      <header
+        class="flex-1 flex flex-col items-center justify-center px-6 py-32 sm:px-8"
+      >
+        <div class="max-w-3xl">
+          <!-- Logo -->
+          <div class="flex justify-center mb-10">
+            <img
+              src="./icon.png"
+              alt="Prikster Tech"
+              class="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl"
+            />
+          </div>
+
+          <!-- Company name -->
+          <h1
+            class="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+          >
+            Prikster Tech
+          </h1>
+
+          <!-- Slogan -->
+          <p
+            class="mt-10 text-center text-xl font-medium leading-snug text-zinc-200 sm:text-2xl md:text-3xl md:leading-snug"
+          >
+            We build smart software by questioning assumptions and rethinking
+            how things should work.
+          </p>
+
+          <!-- Supporting sentence -->
+          <p
+            class="mt-8 text-center text-base leading-relaxed text-zinc-500 sm:text-lg max-w-2xl mx-auto"
+          >
+            A product-focused software company rebuilding outdated business tools
+            with clarity and modern engineering.
+          </p>
+
+          <!-- Stance statement -->
+          <p
+            class="mt-16 text-center text-sm font-medium uppercase tracking-widest text-zinc-600"
+          >
+            Clarity beats complexity.
+          </p>
+        </div>
+      </header>
+
+      <!-- Philosophy -->
+      <section class="px-6 py-16 sm:px-8 border-t border-zinc-900">
+        <div class="mx-auto max-w-3xl">
+          <h2
+            class="text-sm font-semibold uppercase tracking-widest text-zinc-500"
+          >
+            Philosophy
+          </h2>
+
+          <div class="mt-8 space-y-6">
+            <p class="text-lg leading-relaxed text-zinc-400 sm:text-xl">
+              Much of the software businesses rely on today was shaped by
+              decisions made decades ago.
+            </p>
+
+            <p class="text-lg leading-relaxed text-zinc-400 sm:text-xl">
+              Over time, those systems accumulated complexity, workarounds, and
+              assumptions that no longer make sense.
+            </p>
+
+            <p
+              class="text-xl font-medium leading-relaxed text-zinc-200 sm:text-2xl"
+            >
+              Prikster Tech exists to challenge that inertia.
+            </p>
+
+            <p class="text-lg leading-relaxed text-zinc-400 sm:text-xl">
+              We believe that better tools come from rethinking fundamentals
+              rather than patching what already exists.
+            </p>
+
+            <p
+              class="text-base leading-relaxed text-zinc-500 sm:text-lg border-l-2 border-zinc-800 pl-6"
+            >
+              Durable systems over quick fixes.<br />
+              Software designed to age well.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section class="px-6 py-16 sm:px-8 border-t border-zinc-900">
+        <div class="mx-auto max-w-3xl">
+          <h2
+            class="text-sm font-semibold uppercase tracking-widest text-zinc-500"
+          >
+            Products
+          </h2>
+
+          <div class="mt-8">
+            <h3
+              class="text-3xl font-bold tracking-tight text-white sm:text-4xl"
+            >
+              Gear Up
+            </h3>
+
+            <p class="mt-4 text-lg font-medium text-zinc-400 sm:text-xl">
+              Your shop, ready to accelerate.
+            </p>
+
+            <div
+              class="mt-10 space-y-6 text-base leading-relaxed text-zinc-400 sm:text-lg"
+            >
+              <p>
+                A SaaS built for automotive service and repair businesses.
+                Manage jobs, customers, vehicles, services, and daily operations
+                with less friction.
+              </p>
+
+              <p class="text-zinc-200">
+                Designed to replace the outdated, clunky systems that most shops
+                still depend on.
+              </p>
+
+              <p>
+                Built to feel lighter, faster, and easier to run day to day.
+              </p>
+            </div>
+
+            <p class="mt-10 text-sm text-zinc-600">
+              Launching in Portuguese first, with a global roadmap in mind.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Status -->
+      <section class="px-6 py-16 sm:px-8 border-t border-zinc-900">
+        <div class="mx-auto max-w-3xl">
+          <h2
+            class="text-sm font-semibold uppercase tracking-widest text-zinc-500"
+          >
+            Status
+          </h2>
+
+          <div class="mt-8 space-y-4">
+            <p class="text-lg leading-relaxed text-zinc-400 sm:text-xl">
+              Prikster Tech and its products are in early development.
+            </p>
+
+            <p class="text-base leading-relaxed text-zinc-500 sm:text-lg">
+              We’re building slowly and deliberately.
+              We’ll share more as the work earns it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-auto px-6 py-16 sm:px-8 border-t border-zinc-900">
+        <div class="mx-auto max-w-3xl">
+          <div
+            class="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center"
+          >
+            <div>
+              <p class="text-sm font-medium text-zinc-500">Prikster Tech</p>
+              <p class="mt-1 text-xs text-zinc-700">&copy; 2025</p>
+            </div>
+            <p class="text-sm font-medium tracking-wide text-zinc-600">
+              Building, quietly.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
